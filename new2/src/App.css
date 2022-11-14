@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.wrapper{
+  font-family:'Inter',sanns-serif;
+  width:440px;
+  background:white;
+  box-shadow:0px -1px 11px 0px rgba(138,138,138,1);
+  box-sizing:border-box;
+  padding:12px;
+  margin:100px auto;
+}
+input,select{
+  font-family:'Inter',sans-serif;
+  display:block;height:40px;
+  padding:5px;
+  width:90%;
+  margin:10px auto;
+}
+button{
+  font-family:'Inter',sans-serif;
+  display:block;
+  width:905;
+  margin:12px auto;
+  height:30px;
+  background:#85FFBD;
+  border:none;
+  box-shadow:0px -1px 11px 0px rgb(138,138,138);
+}
+table,th,td{
+  border : 1px solid black;
+  width: 100%;
+  padding: 10px 5px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
