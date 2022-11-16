@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap');
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+  
+  }
+  
+.form-handler{
+    /* box-shadow:2px 0px 15px 0px rgba(184,184,184,1);
+    */ width:500px;
+    border:5px solid lightseagreen;
+     margin: 100px auto;/*100px auto; */
+     padding:50px;
+     background-color: aquamarine;
+     font-family: 'Montserrat Alternates', sans-serif;
+ }
+ .form-handler span a{
+    color:blue;
+ }
+ textarea{
+    width:100%;
+}
+ input,button,select{
+     width:100%;
+     display:block;
+     font-family: 'Montserrat Alternates', sans-serif;
+ }
+ input .info1 ,label{
+    display:inline;
+ }
+ input,select{
+     height:24px;
+     border:1px solid gray;
+     border-radius:5px;
+ }
+ label{
+     font-size:.9rem;
+     margin-top:16px;
+ }
+ 
+ .form-handler button {
+    width:50%; 
+    font-family: 'Montserrat Alternates', sans-serif;
+ background-color:lightseagreen;
+ float:right;
+ }
+ 
+ .grey-border{
+     border:1px solid grey;
+ }
+ .red-border{
+     border:1px solid red;
+ }
+ .error{
+     color:red;
+     font-size:.8rem;
+ }
+.grid1{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,26 @@
+nav ul{
+  display:flex;
+  justify-content: space-between;
+ min-height:50px;
+ top:0px;
+  align-items:center;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  
+  background-color: #fff!important;
+}
+  
+
+
+nav ul li{
+  list-style:none;
+}
+
+a{
+  color:black;
+  text-decoration:none;
+}
+.nav2{
+  display:flex;
+  justify-content:space-between;
+
+}

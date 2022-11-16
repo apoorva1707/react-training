@@ -1,0 +1,17 @@
+nav ul{
+  display:flex;
+  justify-content:center;
+  background-color: lightslategray;
+  color:white;
+  min-height:50px;
+  align-items:center;
+  column-gap:30px;
+}
+
+nav ul li{
+  list-style:none;
+}
+a{
+  color:black;
+  margin-left:30px;
+}

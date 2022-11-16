@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap');
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+   
+  }
+  
+
+.nav{
+  display:flex;
+  justify-content:space-between;
+  flex-direction:row;
+  margin-left:10px;
+  margin-top:10px;
+ 
+}
+.rightnav {
+  background-color: rgb(235, 193, 115);
+}
+.rightnav ul li{
+  display:inline;
+  justify-content:space-between;
+  font-size:larger;
+  padding:10px;
+  margin-top:10px;
+ 
+}
+.rightnav ul li:hover{
+  color:green;
+}
